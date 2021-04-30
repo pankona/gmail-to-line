@@ -1,3 +1,4 @@
 .clasprc.json
 .creds.json
-node_modules
+node_modules/
+dist/*.js
