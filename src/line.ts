@@ -1,7 +1,7 @@
 import { properties } from "./properties";
 
 export const sendToLine = (mail: string) => {
-  const LINE_NOTIFY_TOKEN = properties.LINE_NOTIFY_TOKEN;
+  const LINE_NOTIFY_TOKEN = properties.LINE_CHANNEL_ACCESS_TOKEN;
   const ENDPOINT = "https://api.line.me/v2/bot/message/broadcast";
 
   const resp = UrlFetchApp.fetch(ENDPOINT, {

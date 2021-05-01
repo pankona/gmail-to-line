@@ -1,4 +1,4 @@
 export const properties = {
-  FROM_ADDRESS: "update me",
-  LINE_NOTIFY_TOKEN: "update me",
+  GMAIL_FROM_ADDRESS_QUERY: "update me",
+  LINE_CHANNEL_ACCESS_TOKEN: "update me",
 };

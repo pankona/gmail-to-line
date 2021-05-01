@@ -1,8 +1,8 @@
 import { properties } from "./properties";
 
 export const fetchRecentMails = (): string[] => {
-  const FROM_ADDRESS = properties.FROM_ADDRESS;
-  const MINUTES_INTERVAL = 7;
+  const FROM_ADDRESS = properties.GMAIL_FROM_ADDRESS_QUERY;
+  const MINUTES_INTERVAL = 5;
   const now = Math.floor(new Date().getTime() / 1000);
   const intervalMinutesAgo = now - 60 * MINUTES_INTERVAL;
   const query = `is:unread from:(${FROM_ADDRESS}) after:${intervalMinutesAgo}`;
