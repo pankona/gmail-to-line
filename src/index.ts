@@ -7,7 +7,6 @@ declare const global: {
 
 global.main = (_e: any) => {
   const mails = fetchRecentMails();
-
   if (mails.length === 0) {
     return;
   }

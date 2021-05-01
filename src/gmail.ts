@@ -1,7 +1,7 @@
+import { properties } from "./properties";
+
 export const fetchRecentMails = (): string[] => {
-  const FROM_ADDRESS = PropertiesService.getScriptProperties().getProperty(
-    "FROM_ADDRESS"
-  );
+  const FROM_ADDRESS = properties.FROM_ADDRESS;
   const MINUTES_INTERVAL = 5;
   const now = Math.floor(new Date().getTime() / 1000);
   const intervalMinutesAgo = now - 60 * MINUTES_INTERVAL;

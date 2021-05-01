@@ -1,0 +1,4 @@
+export const properties = {
+  FROM_ADDRESS: "update me",
+  LINE_NOTIFY_TOKEN: "update me",
+};
