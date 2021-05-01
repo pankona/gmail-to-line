@@ -14,7 +14,9 @@ Then it is necessary to prepare followings to work this codes:
 
 # How to deploy
 
-- Rename `src/properties.ts.example` to `src/properties.ts` and fulfill required fields marked as "update me".
+- First, do `yarn install` to install tools and dependencies.
+
+- Then rename `src/properties.ts.example` to `src/properties.ts`, and fulfill fields marked as "update me".
 
 ```typescript
 export const properties = {
