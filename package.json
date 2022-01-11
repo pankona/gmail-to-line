@@ -10,7 +10,7 @@
   "devDependencies": {
     "@babel/core": "^7.16.7",
     "@babel/preset-env": "^7.16.8",
-    "@babel/preset-typescript": "^7.15.0",
+    "@babel/preset-typescript": "^7.16.7",
     "@google/clasp": "^2.4.1",
     "@types/google-apps-script": "^1.0.43",
     "babel-loader": "^8.2.3",
