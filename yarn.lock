@@ -2108,13 +2108,14 @@ gas-entry-generator@2.1.0:
     esprima "4.0.1"
     estraverse "5.2.0"
 
-gas-webpack-plugin@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/gas-webpack-plugin/-/gas-webpack-plugin-2.2.0.tgz#9bf859cae42bd67defdeff0a3ec1bd6c84875877"
-  integrity sha512-1Z1yHhsyv+QxuLvwLhDVQCea55HphqL6nCECOuydsAw7xp/Qv+GlJZltPoioUW3siyqtdykMasOtybrJd/+nWw==
+gas-webpack-plugin@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/gas-webpack-plugin/-/gas-webpack-plugin-2.2.1.tgz#b4cdf4bffbac87bb903a1ffabd9e432b6272ffd8"
+  integrity sha512-7ORyxdv0UYT7YtM+cQ1xZQyiRCxzSkferGXCSfcVsU2IdAjgJq2gCLOPiWiH/awItcJma/jnCMiTYCFvA0UElA==
   dependencies:
     gas-entry-generator "2.1.0"
     minimatch "^5.0.0"
+    slash "^3.0.0"
     webpack-sources "^3.1.1"
 
 gaxios@^4.0.0:
@@ -3395,6 +3396,11 @@ signal-exit@^3.0.2, signal-exit@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
   integrity sha512-VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==
+
+slash@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
+  integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
 slice-ansi@^3.0.0:
   version "3.0.0"
