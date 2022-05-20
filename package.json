@@ -8,7 +8,7 @@
     "logs": "clasp logs"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.12",
+    "@babel/core": "^7.18.0",
     "@babel/preset-env": "^7.17.10",
     "@babel/preset-typescript": "^7.17.12",
     "@google/clasp": "^2.4.1",
