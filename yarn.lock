@@ -1093,10 +1093,10 @@
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-1.0.8.tgz#958b91c991b1867ced318bedea0e215ee050726e"
   integrity sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==
 
-"@types/google-apps-script@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@types/google-apps-script/-/google-apps-script-2.0.1.tgz#f704360086ee087ce61722a0f5e69e2c68fce63c"
-  integrity sha512-pWRCWyQZYeZT+qf8x6wt6YMlw+QyTl9JPqHzfADRFnnSDAI/XwR6XoeeWmvvHg5UbKca5WqNEhxuaQhAyRttJQ==
+"@types/google-apps-script@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@types/google-apps-script/-/google-apps-script-2.0.2.tgz#025e67149debab462ce138afaca17446343d50c3"
+  integrity sha512-TBrYuYGPIBGKNE/gLhd0nMTw97BUItthGatJvDc2n8EhxQByrK3Gmn36sYCWtjABldMGNvDvEZBtlDnLErvJLg==
 
 "@types/http-cache-semantics@*":
   version "4.0.0"
