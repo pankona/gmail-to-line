@@ -19,7 +19,7 @@
     "prettier": "^3.9.6",
     "tslint": "^6.1.3",
     "typescript": "^7.0.2",
-    "webpack": "^5.109.1",
+    "webpack": "^5.110.1",
     "webpack-cli": "^7.2.3"
   }
 }
